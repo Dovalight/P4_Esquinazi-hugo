@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -692,7 +692,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #481F39!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -705,7 +705,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 22px!important;
     line-height: 1.4em;
 }
 
@@ -736,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -775,25 +775,25 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #481F39!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #481F39!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #481F39!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-atomic-tangerine {
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1039,27 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.text-center{
+    font-size: 15px;
+}
+
+.fa-instagram,
+.fa-dribbble,
+.fa-facebook,
+.fa-twitter{
+    color: #481F39!important;
+}
+
+.fa-instagram:hover,
+.fa-dribbble:hover,
+.fa-facebook:hover,
+.fa-twitter:hover{
+    color:white!important ;
+}
+
+#title_h1
+{
+    font-size: 25px;
 }
